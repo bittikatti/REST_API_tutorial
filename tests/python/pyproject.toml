@@ -1,7 +1,13 @@
 [project]
-name = "testssuite"
+name = "python"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+    "requests>=2.32.5",
+]
