@@ -6,3 +6,11 @@
 
 # JSONS
 !*.json
+
+# Javascripts of the api
+!*.js
+
+!*.cmd
+
+# Test files
+!*.py
