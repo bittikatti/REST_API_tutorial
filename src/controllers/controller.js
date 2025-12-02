@@ -1,3 +1,5 @@
+// Manages incoming HTTP requests and sends appropriate responses.
+
 const url = require('url');
 const users = require('../data/userData.js');
 exports.getUsers = function(req, res) {
