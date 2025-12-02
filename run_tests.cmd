@@ -1,1 +1,1 @@
-uv run pytest -s --log-cli-level=INFO tests/
+tests\python\.venv\Scripts\pytest.exe -s --log-cli-level=INFO tests/python/tests/
