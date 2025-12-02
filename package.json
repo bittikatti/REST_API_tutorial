@@ -1,0 +1,23 @@
+{
+  "name": "rest_api_tutorial",
+  "version": "1.0.0",
+  "description": "Here is a nonsensical REST API.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehukatti/REST_API_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehukatti/REST_API_tutorial/issues"
+  },
+  "homepage": "https://github.com/mehukatti/REST_API_tutorial#readme"
+}
