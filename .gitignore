@@ -13,4 +13,11 @@
 !*.cmd
 
 # Test files
+!tests/
+!tests/**
 !*.py
+*.pyc
+
+# Test virtual environment requirements
+!.python-version
+!pyproject.toml

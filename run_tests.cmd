@@ -1,0 +1,1 @@
+uv run pytest -s --log-cli-level=INFO tests/
