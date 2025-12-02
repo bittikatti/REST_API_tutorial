@@ -8,6 +8,8 @@
 !*.json
 
 # Javascripts of the api
+!src/
+!src/**
 !*.js
 
 !*.cmd

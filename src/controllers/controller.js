@@ -1,5 +1,5 @@
 const url = require('url');
-const users = require('./userData.js');
+const users = require('../data/userData.js');
 exports.getUsers = function(req, res) {
     const reqUrl = url.parse(req.url, true)
     var response = [
@@ -15,7 +15,7 @@ exports.getUsers = function(req, res) {
 
 exports.getUserById = function(req, res) {
     const reqUrl = url.parse(req.url, true);
-    const id = reqUrl.pathname.split("/")[2]; // extract /users/1 → 1
+    const id = reqUrl.pathname.split("/")[2]; // extract /users/1 -> 1
 
     const user = users.find(u => String(u.id) === id);
 
