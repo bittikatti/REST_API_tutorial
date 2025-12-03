@@ -1,7 +1,19 @@
 // Manages incoming HTTP requests and sends appropriate responses.
 
 const url = require('url');
-const users = require('../data/userData.js');
+var users = require('../data/userData.js');
+
+// Add links
+const generateUserLinks = (userId) => ({
+    self: { href: `/users/${userId}` },
+});
+
+// GET all users
+users = users.map(user => ({
+    ...user,
+    _links: generateUserLinks(user.id)
+}));
+
 exports.getUsers = function(req, res) {
     const reqUrl = url.parse(req.url, true)
     var response = [
@@ -11,7 +23,7 @@ exports.getUsers = function(req, res) {
         users
     ];
     res.statusCode = 200;
-    res.setHeader('content-Type', 'Application/json');
+    res.setHeader('Content-Type', 'Application/json');
     res.end(JSON.stringify(response))
 }
 
