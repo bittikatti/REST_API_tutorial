@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mehukatti/REST_API_tutorial.git"
+    "url": "git+https://github.com/bittikatti/REST_API_tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mehukatti/REST_API_tutorial/issues"
+    "url": "https://github.com/bittikatti/REST_API_tutorial/issues"
   },
-  "homepage": "https://github.com/mehukatti/REST_API_tutorial#readme"
+  "homepage": "https://github.com/bittikatti/REST_API_tutorial#readme"
 }
